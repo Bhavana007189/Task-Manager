@@ -1,0 +1,152 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<div class="container text-center mt-5">
+
+    <h1>Task Management System</h1>
+    <p class="mt-3">Manage your daily tasks easily</p>
+
+    <a href="/login/" class="btn btn-primary mt-3">Login</a>
+    <a href="/register/" class="btn btn-success mt-3">Register</a>
+
+</div>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Task Management System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+   .card:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+    }
+    </style>
+    <style>
+body {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    min-height: 100vh;
+}
+</style>
+<style>
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+</style>
+<style>
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+</style>
+    
+    
+</head>
+<script>
+window.onload = function() {
+    document.getElementById("loader").style.display = "none";
+}
+</script>
+
+<body class="bg-light">
+    <div id="loader">
+    <div class="spinner-border text-light"></div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-dark px-4">
+    <span class="navbar-brand">Smart Task Manager</span>
+
+    <div>
+        <a href="/login/" class="btn btn-outline-light btn-sm">Login</a>
+        <a href="/register/" class="btn btn-success btn-sm">Register</a>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="container text-center mt-5">
+
+    <!-- <h1 class="fw-bold">Smart Task Management System</h1> -->
+     <h1 class="fw-bold">
+    <i class="bi bi-list-check text-primary"></i>
+    Smart Task Management System
+</h1>
+
+    <p class="mt-3 text-muted">
+        Manage your daily tasks easily, stay organized, and boost productivity 🚀
+    </p>
+
+    <div class="mt-4">
+        <a href="/login/" class="btn btn-primary btn-lg me-2">
+    <i class="bi bi-box-arrow-in-right"></i> Get Started
+</a>
+
+<a href="/register/" class="btn btn-outline-success btn-lg">
+    <i class="bi bi-person-plus"></i> Create Account
+</a>
+    </div>
+
+</div>
+
+<!-- Features Section -->
+<div class="container mt-5">
+
+    <h3 class="text-center mb-4">Features</h3>
+
+    <div class="row text-center">
+
+        <div class="col-md-4">
+            <div class="card p-3 shadow-sm">
+                <h5>📝 Manage Tasks</h5>
+                <p>Add, edit, and delete tasks</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card p-3 shadow-sm">
+                <h5>🔍 Search Tasks</h5>
+                <p>Quickly find tasks using search feature</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card p-3 shadow-sm">
+                <h5>📊 Dashboard</h5>
+                <p>Track completed and pending tasks easily</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Footer -->
+<div class="text-center mt-5 mb-3 text-muted">
+    <p>© 2026 Smart Task Management System</p>
+</div>
+
+</body>
+</html>
